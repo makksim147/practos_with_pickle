@@ -268,8 +268,8 @@ class Librian(Person):
 OK = True
 
 #СОЗДАНИЕ НАЗВАНИЯ ДЛЯ ФАЙЛОВ, ГДЕ БУДУТ ХРАНИТЬСЯ ОБЪЕКТЫ
-name_for_file_book = "books_sys.txt"
-name_for_file_user = "users_sys.txt"
+name_for_file_book = "books_sys.pkl"
+name_for_file_user = "users_sys.pkl"
 
 #Подкачка всех данных из файлов
 all_books = read_files(name_for_file_book)
